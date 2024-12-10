@@ -1,0 +1,283 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* _____________________________________________________________________________________________________________________________________________________ */
+
+*   
+   {
+    font-family: "Roboto Condensed", sans-serif;
+    font-optical-sizing: auto;
+    margin: 0px;
+    padding: 0px;
+   }
+
+/* _____________________________________________________________________________________________________________________________________________________ */
+
+body
+   {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+   }
+
+/* _____________________________________________________________________________________________________________________________________________________ */
+
+nav 
+   {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background-color: aquamarine;
+    border: solid black 3px;
+    border-radius: 15px 0px;
+    margin: 25px;
+    padding: 10px;
+    width: 80%;
+   } 
+
+.NavNames
+   {
+    display: flex;
+    flex-direction: row;
+   }
+
+.NavNames h1
+   {
+    font-size: 40px;
+    margin: 0px 10px;
+   }
+
+.NavNames h2
+   {
+    font-size: 30px;
+    margin: 0px 10px;
+   }
+
+/* _____________________________________________________________________________________________________________________________________________________ */
+
+.About
+   {
+    width: 80%;
+   }
+
+.About img
+   {
+    border: solid black 3px;
+    border-radius: 100%;
+    box-shadow: 1px 1px 15px black;
+    height: 250px;
+    width: 250px;
+    margin: 15px;
+    object-fit: fill;
+   }
+
+.AboutIntro
+   {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+   }
+
+.About h2
+   {
+    font-size: 40px;
+    margin: 10px 3px;
+   }
+
+.About p
+   {
+    font-size: 20px;
+    text-align: justify;
+   }
+
+.SocialMedia
+   {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: 35px;
+   }
+
+.SocialMediaIcons
+   {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    margin: 10px;
+    text-align: center;
+    text-decoration: none;
+    width: 125px;
+   }
+
+.SocialMediaIcons i
+   {
+    font-size: 30px;
+   }
+
+
+.SocialMediaIcons p
+   {
+    font-size: 25px;
+    height: 30px;
+    margin: 15px 0px;
+   }
+
+.SocialMediaIcons:hover p 
+   {
+    font-size: 30px;
+    font-weight: 500;
+   }
+
+/* _____________________________________________________________________________________________________________________________________________________ */
+
+.TechStack
+   {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: darksalmon;
+    border: solid black 3px;
+    padding: 10px;
+    width: 60%;
+   }
+
+#TechStackTitle
+   {
+    background-color: aquamarine;
+    border: solid black 3px;
+    border-radius: 10px 0px;
+    font-size: 40px;
+    margin: 20px;
+    padding: 15px;
+   }
+
+.TechStackIcon 
+   {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 10px;
+    width: 200px;
+   }
+
+.TechStackIcon i
+   {
+    font-size: 50px;
+   }
+
+.TechStackIcon p
+   {
+    font-size: 25px;
+    height: 30px;
+    margin: 10px;
+   }
+
+.TechStackIcon:hover p 
+   {
+    font-size: 30px;
+    font-weight: 500;
+   }
+
+/* _____________________________________________________________________________________________________________________________________________________ */
+
+#ProjectTitle 
+   {
+    background-color: aquamarine;
+    border: solid black 3px;
+    border-radius: 10px 0px;
+    font-size: 40px;
+    margin: 5px;
+    margin-top: 75px;
+    padding: 15px;
+   }
+
+.ProjectContent
+   {
+    border: solid black;
+    margin: 35px;
+    padding: 10px;
+   }
+
+.ProjectContent h2
+   {
+    font-size: 35px;
+    margin: 10px;
+   }
+.ProjectContent img
+   {
+    filter: drop-shadow(1px 1px 7px black);
+    height: 500px;
+    width: 700px;
+    object-fit: contain;
+   }
+
+/* _____________________________________________________________________________________________________________________________________________________ */
+
+footer
+   {
+    background-color: darkseagreen;
+    border: solid black;
+    margin: 15px;
+    width: 99%;
+   }
+
+footer img
+   {
+    height: 200px;
+    width: 200px;
+    padding: 15px;
+   }
+
+footer p
+   {
+    font-size: 25px;
+    margin: 15px;
+   }
+
+.footerLinks a
+   {
+    font-size: 30px;
+    color: black;
+    margin: 10px;
+    text-decoration: none;
+   }
+
+/* _____________________________________________________________________________________________________________________________________________________ */
+
+.Email i
+   {
+    background-color: black;
+    color: white;
+    font-size: 35px;
+    padding: 20px;
+    border-radius: 100%;
+    position: fixed;
+    bottom: 25px;
+    right: 25px;
+    animation-name: Mail;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+   }
+
+ @keyframes Mail
+   {
+      0%{transform:scale(0.85)}
+      25%{transform:scale(1);}
+      50%{transform:scale(1.15);}
+      75%{transform:scale(1)}
+      100%{transform:scale(0.85);}
+   }
+
+/* _____________________________________________________________________________________________________________________________________________________ */
